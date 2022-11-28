@@ -12,10 +12,9 @@ const Header = () => {
       <div className="relative flex items-center h-10 cursor-pointer my-auto">
         <Image
           src={'https://links.papareact.com/qd3'}
-          layout="fill"
           alt="airbnb_image"
-          objectFit="contain"
-          objectPosition="left"
+          fill
+          style={{ objectFit: 'contain', objectPosition: 'left' }}
         />
       </div>
       <div className="flex items-center rounded-full md:border-2 py-2">
