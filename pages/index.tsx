@@ -30,7 +30,7 @@ const Home = ({
         <title>AirBnB copy</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <Header placeholder="" />
       <Banner />
       <main className="max-w-7xl mx-auto px-8">
         <section className="pt-6">
